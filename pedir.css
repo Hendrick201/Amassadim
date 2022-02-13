@@ -1,0 +1,91 @@
+@font-face 
+{
+    font-family: Bahnschrift;
+    src: url(./Fonts/BahnschriftStyles/BAHNSCHRIFT.TTF);
+}
+html 
+{
+    scroll-behavior:auto;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    color:  #d60115;
+    font-size: 100%;
+    font-family: Bahnschrift;
+}
+
+body
+{
+    background-color: white;
+}
+.links
+{
+    border: solid 1px #d60115;
+    width: 95%;
+    position: relative;
+    left: 50%;
+    padding: 10px 0px 10px 0px; 
+    transform: translateX(-50%);
+}
+a
+{
+    text-decoration: none;
+    color: #d60115;
+    padding: 15px 10px 15px 10px;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+}
+h2
+{
+    font-weight: normal;
+}
+a:hover
+{
+    font-size: 20px;
+}
+p
+{
+    font-size: 16px;
+}
+#Menu
+{
+    height: 150px;
+}
+#div
+{
+    width: 100%;
+}
+#MenuContainer
+{
+    letter-spacing: 2px;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+}
+#LogoLink
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+
+}
+#LogoImage
+{
+    width: 150px;
+    padding: 5px;
+}
+#LogoImage:hover
+{
+    width: 170px;
+}
+@media  screen and (max-width: 500px)
+{
+    h1
+    {
+        font-size: 10px;
+    }
+}
