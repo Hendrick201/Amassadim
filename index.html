@@ -1,14 +1,322 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amassadim</title>
-    <meta http-equiv="refresh" content="0; URL='./pedir.html'"/>
+    <link rel="icon" href="./Imagens/AmassadimLogo.jpeg">
+    <link rel="stylesheet" href="homePage.css">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Amassadim - Peça agora.">
+    <meta property="og:description" content="Peça o seu amassadim agora">
+    <meta property="og:url" content="http://amassadim.com/pedir"> <!-- Domain url-->
+    <meta property="og:site_name" content="Amassadim Ituiutaba">
+    <meta property="og:image" content="./Imagens/AmassadimLogo.jpeg">
+    <meta property="og:image:alt" content="">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="720">
+    <meta property="og:image:type" content="image/jpeg">
+    <title>Pede seu Amassadim</title>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '461256325334662');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=461256325334662&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '471126004727187');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=471126004727187&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
-<body>
+<body onclick="hideSocialMedias()" >
+    <script src="js.js"></script>
+    <header id="header">
+        <nav>
+            <div id="Menu">
+                <div id="MenuContainer2">
+
+                </div>
+                <div id="MenuContainer">
+                    <ul id="CellPhoneMenuList">
+                        <li class="CellPhoneMenuLinkList"> 
+                            <a  href="https://amassadim.pedzap.com.br/" id="2" onclick="MenuCellPhoneShow(MenuOn = true)">Cardápio</a>
+                        </li>
+                        <li class="MenuLinkList">
+                            <a href="#SecondSection" id="1" onclick="MenuFixedAnimationHidden(), MenuCellPhoneShow(MenuOn = true)" >+ opções</a>
+                        </li>
+                        <li class="CellPhoneMenuLinkList">
+                            <a href="./pedir.html" id="1" onclick="MenuCellPhoneShow(MenuOn = true)">SAC</a>
+                        </li>    
+                        <li class="SocialMediasLink">
+                            <a href="https://www.facebook.com/amassadim" ><img class="SocialMediasImage" src="./Imagens/1365px-Facebook_f_logo_(2019).svg.webp" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png" ></a>  
+                          </li>
+                          <li class="SocialMediasLink">
+                              <a href="https://www.instagram.com/amassadim/"><img class="SocialMediasImage" src="./Imagens/Instagram_logo_2016.svg.webp" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" ></a>  
+                          </li>
+                          <li class="SocialMediasLink">
+                              <a href="https://api.whatsapp.com/send?phone=5534998788917&text=Oii,%20pode%20me%20enviar%20o%20cardápio?%20 &#127828;" ><img class="SocialMediasImage" src="./Imagens/WhatsApp-Logo.png" alt=""></a>  <!--Make a link for alt-->
+                          </li>      
+                    </ul>
+                    <ul id="MenuListLeft">
+                        <li class="MenuLinkList">
+                            <div class="CardápioBorder">
+                            </div>  
+                            <a href="https://amassadim.pedzap.com.br/" id="1" onclick="MenuFixedAnimationHidden(), MenuCellPhoneShow(MenuOn = true)" >Cardápio</a>
+                        </li>
+                        <li class="MenuLinkList">
+                            <div class="CardápioBorder">
+                            </div>  
+                            <a href="#SecondSection" id="1" onclick="MenuFixedAnimationHidden(), MenuCellPhoneShow(MenuOn = true)" >+ opções</a>
+                        </li>
+                    </ul>
+                    <a id="LogoLink" href="./index.html"><img id="LogoImage" src="./Imagens/AmassadimLogo.jpeg" alt=""></a>
+                    <ul id="MenuListRight">
+                        <li class="MenuLinkList">
+                            <div class="CardápioBorder">
+                            </div>    
+                            <a  href="pedir.html" id="2" onclick="MenuFixedAnimationHidden(), MenuCellPhoneShow(MenuOn = true)" onmouseenter="BorderAnimationEnter(this.id)" onmouseleave="BorderAnimationOut()">SAC</a>
+                        </li>
+                        <li class="MenuLinkList" style="margin-right: 0%;" id="SocialMediasLi" onclick="showSocialMedias()" >
+                            <label href="" id="MediaLabel">Redes Sociais</label>
+                        </li>
+                        
+                    </ul>
+                    <ul id="SocialMediasList">      
+                        <div id="MediasBorder">
+                        </div>              
+                            <li class="SocialMediasLink">
+                                <a href="https://www.facebook.com/amassadim" ><img class="SocialMediasImage" src="./Imagens/1365px-Facebook_f_logo_(2019).svg.webp" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png" ></a>  
+                              </li>
+                              <li class="SocialMediasLink">
+                                  <a href="https://www.instagram.com/amassadim/"><img class="SocialMediasImage" src="./Imagens/Instagram_logo_2016.svg.webp" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" ></a>  
+                              </li>
+                              <li class="SocialMediasLink">
+                                  <a href="https://api.whatsapp.com/send?phone=5534998788917&text=Oii,%20pode%20me%20enviar%20o%20cardápio?%20 &#127828;" ><img class="SocialMediasImage" src="./Imagens/WhatsApp-Logo.png" alt=""></a>  <!--Make a link for alt-->
+                              </li>                 
+                    </ul>
+                    <div id="MenuButton" onclick="MenuCellPhoneShow()">
+                        <div class="LineMenuButton" style=" margin: 3px; width: 20px; height: 2px; background-color: #e01119; border-radius: 6px;">
+                        </div>
+                        <div class="LineMenuButton" style=" margin: 3px; width: 20px; height: 2px; background-color: #e01119; border-radius: 6px;">
+                        </div>
+                        <div class="LineMenuButton" style=" margin: 3px; width: 20px; height: 2px; background-color: #e01119; border-radius: 6px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+       
+        <!-- MenuHightlightStart-->
+        <section Class="menuSection" id="firstMenuSection"> 
+                    <div Class="AboutSectionsDiv1">
+                        <div id="menuSectionTittle">       
+                            <h4>Principais Amassadim</h4>       
+                        </div>
+                        <div id="BurgersAlign">
+                        <div id="HightlightBurgersDiv">
+                            <ul>
+                                <div class="BurgersDiv1">
+                                    <li>
+                                        <h4 class="NameMenuItensF">
+                                            Lanche 1
+                                        </h4>
+                                    </li>
+                                    <li>
+                                        <a href="https://amassadim.pedzap.com.br/">
+                                            <div class="HightlightBurgersImage">
+                                            </div>
+                                        </a>
+                                       
+                                    </li>
+                                    <li class="BurgersText">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </li>
+                                </div>
+                                <div class="BurgersDiv1">
+                                    <li>
+                                        <h4 class="NameMenuItensF">
+                                            Lanche 2
+                                        </h4>
+                                    </li>
+                                    <li>
+                                        <a href="https://amassadim.pedzap.com.br/">
+                                            <div class="HightlightBurgersImage">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="BurgersText">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </li>
+                                </div>
+                                <div class="BurgersDiv1">
+                                    <li>
+                                        <h4 class="NameMenuItensF">
+                                            Lanche 3
+                                        </h4>
+                                    </li>
+                                    <li>
+                                        <a href="https://amassadim.pedzap.com.br/">
+                                            <div class="HightlightBurgersImage">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="BurgersText">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </li>
+                                </div>
+                                <div class="BurgersDiv1">
+                                    <li>
+                                        <h4 class="NameMenuItensF">
+                                            Lanche 4
+                                        </h4>
+                                    </li>
+                                    <li>
+                                        <a href="https://amassadim.pedzap.com.br/">
+                                            <div class="HightlightBurgersImage">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="BurgersText">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div id="buyDiv" style="text-align: center; margin: 30px; margin-top: 40px;">
+                            <a class="BuyLink" href="https://amassadim.pedzap.com.br/" style="color: red;">Peça agora!</a>
+                        </div>
+                    </div>
+        </section>
+        <!--  MenuHightlightEnd-->
+                
+
+         <!-- MenuSectionStart-->
+        <section id="SecondSection" class="menuSection"> 
+            <div Class="AboutSectionsDiv" >
+                <div style="display: inline-block; position: relative; left: 50%; transform: translateX(-50%);">
+                    <div id="CardápioBorderTest">
+                    </div>               
+                    <h4 id="SecondSectionTittle" >Outras opções</h4>
+                </div>
+
+                <div id="MenuSectionDiv" >
+                    <div class="Tables" id="LeftBurgers">
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Food King</h4>
+                            <p class="AboutText"> 
+                                Pão australiano selado na manteiga, hambúrguer 180g grelhado, duas fatias de cheddar, duplo bacon crocante, cebola caramelizada, maionese da casa e saladinha pra tirar a culpa de experimentar essa delicia!
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">FK-Austrália</h4>
+                            <p class="AboutText">
+                                Pão australiano selado na manteiga, hambúrguer 180g grelhado, duas fatias de cheddar, bacon crocante, cebola roxa, picles e maionese FK.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">FK-Bacon</h4>
+                            <p class="AboutText">
+                                Pão com parmesão selado na chapa, hambúrguer 180g com o blend da casa, duplo bacon artesanal bem crocante, mussarela, nossa maionese da casa e saladinha de alface com tomate para complementar.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">FK-Tudo</h4>
+                            <p class="AboutText">
+                            Pão de brioche, hambúrguer 180g com o blend da casa, bacon crocante, ovo, mussarela, presunto, nosso molho especial da casa, alface e tomate.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Duplo King</h4>
+                            <p class="AboutText">
+                                Pão australiano, dois burgers 90g prensados na chapa, duas fatias de cheddar, duas fatias de queijo prato, cebola caramelizada, bacon crocante e maionese da casa.
+                            </p>
+                        </div>
+                    </div>           
+
+                    <div class="Tables" id="RightBurgers">
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Smash Bacon</h4>
+                            <p class="AboutText">
+                                Pão brioche selado na chapa, hambúrguer artesanal de 90g, duplo bacon,  duplo cheddar e maionese da casa.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Smash Burger</h4>
+                            <p class="AboutText">
+                                Pão brioche, burger 90g prensado na chapa, duas fatias de cheddar, cebola roxa e maionese da casa.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Smash Classic</h4>
+                            <p class="AboutText">
+                                Pão de briche selado na chapa, hambúrguer artesanal de 90g, duplo cheddar, maionese da casa alface e tomate.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Veg-Cheese</h4>
+                            <p class="AboutText">
+                                Pão de parmesão, hambúrguer de proteína de soja 100g, queijo prato, cheddar, cebola roxa, maionese da casa, alface e tomate.
+                            </p>
+                        </div>
+                        <div  class="MenuSectionTextContainer">
+                            <h4 class="NameMenuItens">Veg-Egg</h4>
+                            <p class="AboutText">
+                                Pão com gergelim, hambúrguer de soja 100g, queijo prato, ovo, maionese FK, alface e tomate.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin: 30px; padding-bottom: 50px;">
+                        <a id="SecondSectionBuyLink" class="BuyLink" href="pedir.html" style="color: red;">Peça agora!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MenuSectionEnd-->
     
-</body>
+        <footer>
+            <div id="FooterFixed">
+                <div style="border: solid 1px red; display: inline-block; border-radius: 5px; margin-left: 10px;">
+                    <div class="FooterSocialMediasLink">
+                        <a style="" href="https://www.facebook.com/amassadim" ><img class="FooterSocialMediasImage" src="./Imagens/1365px-Facebook_f_logo_(2019).svg.webp" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png" ></a>  
+                    </div>
+                      <div class="FooterSocialMediasLink">
+                        <a href="https://www.instagram.com/amassadim/"><img class="FooterSocialMediasImage" src="./Imagens/Instagram_logo_2016.svg.webp" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" ></a>  
+                      </div>
+                </div>
+            
+                  <div id="FooterLinks">
+                    <a id="WhatsFooter" href="https://api.whatsapp.com/send?phone=5534998788917&text=Oii,%20pode%20me%20enviar%20o%20cardápio?%20 &#127828;" ><img class="FooterSocialMediasImage" src="./Imagens/WhatsApp-Logo.png" alt=""></a>  <!--Make a link for alt-->
+                    <a id="FooterLink" href="pedir.html" style="color: red;">Peça agora!</a>
+                </div>
+                
+            </div>
+        </footer>
+    </main>
+</body >
 </html>
